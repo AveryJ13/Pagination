@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+
+
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60px;
+
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.books{
+    width: 100%;
+    max-width: 500px;
+    margin-top: 20px;
+    border: 1px solid black;
+}
+
+.book{
+    padding: 15px;
+    border-bottom: 1px solid black;
+}
+
+.buttonStyling {
+    width: 50px;
+    height: 50px;
+    background-color: lightblue;
+    
+}
+
